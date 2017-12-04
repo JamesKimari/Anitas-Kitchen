@@ -10,7 +10,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Halant" rel="stylesheet">
   <link href="css/font-awesome.min.css" rel="stylesheet">
   <script src="js/jquery-3.2.1.js"></script>
   <script src="js/scripts.js"></script>
@@ -20,7 +20,7 @@
 <body>
 
 
-<div id="bodycontent">
+  <div id="container-fluid" id="Events">
     <div id="show-menu">
       <img src="imgs/logoBig.png" alt="" class="img-fluid">
       <br><br>
@@ -28,183 +28,174 @@
     </div>
 
 
-  <div class="foodtop">
-    <div class="row">
-      <div class="col-md-3">
-        <div class='col'>
-          <p>Party time</p>
-          <p>Happy Hour</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="col-md-12" id="party-time">
+            <h4>Party Time</h4>
+          </div>
+          <div class="col-md-12" id="happy-hour">
+            <h4>Happy Hour</h4>
+          </div>
         </div>
-      </div>
-      <div class="col-md-3">
-        <div id="breakfast">
-          <img src="imgs/foodtop/breakfast.jpg" alt="" class="img-fluid">
+        <div class="col-md-3 food" id="breakfast">
           <h4>Breakfast</h4>
         </div>
-      </div>
-      <div class="col-md-3">
-        <div id=lunch>
-          <img src="imgs/foodtop/lunch.jpg" alt="" class="img-fluid">
+        <div class="col-md-3 food" id="lunch">
           <h4>Lunch</h4>
         </div>
-      </div>
-      <div></div>
-      <div class="col-md-3">
-        <div id="dinner">
-          <img Src="imgs/foodtop/dinner.jpg" alt="" class="img-fluid">
+        <div class="col-md-3 food" id="dinner">
           <h4>Dinner</h4>
         </div>
       </div>
     </div>
-  </div>
 
 
-  <br><br>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-5 offset-md-1">
-        <div class="Fastfood-pics">
-          <img src="imgs/fastFood1.jpg" alt="" class="img-fluid">
-          <img src="imgs/fastFood2.jpg" alt="" class="img-fluid">
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="Fastfood-text">
-          <br>
-          <h2>Fast Food</h2>
-          <h5>You'll love our delicious fast food</h5>
-          <br>
-          <p>Lorem ipsum dolor sit amet, natum utamur definitiones ut his, eu quo affert epicurei. Te integre voluptaria definitionem cum. Ut habeo utinam pertinax pri. Nibh iusto iuvaret te pro, ad brute argumentum disputando vix, sea lucilius moderatius
-            cu. An ius soluta aperiam ceteros, tantas epicurei cum no. Eu quo affert epicurei. Te integre voluptaria definitionem cum. Ut habeo utinam pertinax pri.</p>
-          <div class="border">
-            <button type="button" class="btn btn-outline-primary"><b>VIEW GALLERY</b></button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <br><br><br>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-5">
-        <div class="Drinks-text">
-          <br>
-          <h2>Drinks</h2>
-          <h5>We also produce delicious drinks</h5>
-          <br>
-          <p>Lorem ipsum dolor sit amet, natum utamur definitiones ut his, eu quo affert epicurei. Te integre voluptaria definitionem cum. Ut habeo utinam pertinax pri. Nibh iusto iuvaret te pro, ad brute argumentum disputando vix, sea lucilius moderatius
-            cu. An ius soluta aperiam ceteros, tantas epicurei cum no. Eu quo affert epicurei. Te integre voluptaria definitionem cum. Ut habeo utinam pertinax pri.</p>
-          <div class="border">
-            <button type="button" class="btn btn-outline-primary"><b>VIEW GALLERY</b></button>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="Drinks-pics">
-          <img src="imgs/drink1.jpg" alt="" class="img-fluid">
-          <img src="imgs/drink2.jpg" alt="" class="img-fluid">
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <br><br></br>
-  <div class="options-bg">
-    <div class="container-fluid">
-      <div class="jumbotron">
-        <div class="row">
-          <div class="col-md-3 section">
-            <p id="Fastfood">Fast Food</p>
-          </div>
-          <div class="col-md-3 section">
-            <p>Drinks</p>
-          </div>
-          <div class="col-md-3 section">
-            <p>Chicken</p>
-          </div>
-          <div class="col-md-3 section">
-            <p id="Rice">Rice</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <img src="imgs/fastfood/beefBurger.jpg">
-            <br>
-            <p>Beef Burger</p>
-          </div>
-          <div class="col-md-4">
-            <img src="imgs/fastfood/chickenBurger.jpg" class="img-fluid">
-            <br>
-            <p>Chicken Burger</p>
-          </div>
-          <div class="col-md-4">
-            <img src="imgs/fastfood/chickenPizza.jpg" class="img-fluid">
-            <br>
-            <p>Chicken Pizza</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="customers">
-    <span class="glyphicon glyphicon-chavron-right"></span>
+    <br><br>
     <div class="container-fluid">
       <div class="row">
-        <div class="jumbotron">
-          <div class="row">
-            <div class="col-md-6 txt-center">
-              <h5 class="txt-orange">Our Happy Customers</h5>
-              <p>George Richard</p>
-              <p>Great food! Menu is awesome. The foods are not only great but also in the right price. I'll highly recommend them:)</p>
-              <div class="customer-profiles">
-                <img src="imgs/customers/p1.png"> <img src="imgs/customers/p2.png"> <img src="imgs/customers/p3.png">
-              </div>
-            </div>
-            <div class="col-md-6 txt-center">
-              <h5 class="txt-orange">About Me</h5>
-              <p>We are mainly a little team of 7 members Great food Menu is awesome, their foods are not only great but also in the right price. I'll highly recommend them</p>
+        <div class="col-md-5 offset-md-1">
+          <div class="Fastfood-pics">
+            <img src="imgs/fastFood1.jpg" alt="" class="img-fluid">
+            <img src="imgs/fastFood2.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="Fastfood-text">
+            <br>
+            <h2>Fast Food</h2>
+            <h5>You'll love our delicious fast food</h5>
+            <br>
+            <p>Lorem ipsum dolor sit amet, natum utamur definitiones ut his, eu quo affert epicurei. Te integre voluptaria definitionem cum. Ut habeo utinam pertinax pri. Nibh iusto iuvaret te pro, ad brute argumentum disputando vix, sea lucilius moderatius
+              cu. An ius soluta aperiam ceteros, tantas epicurei cum no. Eu quo affert epicurei.</p>
+            <div class="border">
+              <button type="button" class="btn btn-outline-primary"><b>VIEW GALLERY</b></button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <span class="glyphicon glyphicon-chavron-right"></span>
-  </div>
 
 
-  <div class="footer">
-    <div class="footer-bg">
-      <h3 class="text-white">Get our daily food items delivered to your email</h3>
-      <br><br>
-      <form class="form-inline">
-        <div class="form-group">
-          <input type="text" class="form-control">
-          <button class="btn btn-primary">subscribe</button>
+    <br><br><br>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="Drinks-text">
+            <br>
+            <h2>Drinks</h2>
+            <h5>We also produce delicious drinks</h5>
+            <br>
+            <p>Lorem ipsum dolor sit amet, natum utamur definitiones ut his, eu quo affert epicurei. Te integre voluptaria definitionem cum. Ut habeo utinam pertinax pri. Nibh iusto iuvaret te pro, ad brute argumentum disputando vix, sea lucilius moderatius.</p>
+            <div class="border">
+              <button type="button" class="btn btn-outline-primary"><b>VIEW GALLERY</b></button>
+            </div>
+          </div>
         </div>
-      </form>
+        <div class="col-md-6">
+          <div class="Drinks-pics">
+            <img src="imgs/drink1.jpg" alt="" class="img-fluid">
+            <img src="imgs/drink2.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
 
 
-  <div class="footer-finish">
-    <div class="row">
-      <div class="col-md-6 offset-md-3">
-        <div class="socials">
-          <h2 class="txt-white"><img src="imgs/footerlogos/logo_white.png" alt="">  MENU</h2>
-          <p class="txt-white">That's What We Are</p>
-          <img src="imgs/footerlogos/facebook.png" alt=""><img src="imgs/footerlogos/twitter.png" alt=""><img src="imgs/footerlogos/pinterest.png" alt="">
-          <br><br>
-          <p class="txt-white">2016 menu restaurant</p>
+    <br><br></br>
+    <div class="options-bg">
+      <div class="container-fluid">
+        <div class="jumbotron">
+          <div class="row">
+            <div class="col-md-3 section">
+              <p id="Fastfood">Fast Food</p>
+            </div>
+            <div class="col-md-3 section">
+              <p>Drinks</p>
+            </div>
+            <div class="col-md-3 section">
+              <p>Chicken</p>
+            </div>
+            <div class="col-md-3 section">
+              <p id="Rice">Rice</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <img src="imgs/fastfood/beefBurger.jpg">
+              <br>
+              <p>Beef Burger</p>
+            </div>
+            <div class="col-md-4">
+              <img src="imgs/fastfood/chickenBurger.jpg" class="img-fluid">
+              <br>
+              <p>Chicken Burger</p>
+            </div>
+            <div class="col-md-4">
+              <img src="imgs/fastfood/chickenPizza.jpg" class="img-fluid">
+              <br>
+              <p>Chicken Pizza</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="customers">
+      <span class="glyphicon glyphicon-chavron-right"></span>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="jumbotron">
+            <div class="row">
+              <div class="col-md-6 txt-center">
+                <h5 class="txt-orange">Our Happy Customers</h5>
+                <p>George Richard</p>
+                <p>Great food! Menu is awesome. The foods are not only great but also in the right price. I'll highly recommend them:)</p>
+                <div class="customer-profiles">
+                  <img src="imgs/customers/p1.png"> <img src="imgs/customers/p2.png"> <img src="imgs/customers/p3.png">
+                </div>
+              </div>
+              <div class="col-md-6 txt-center">
+                <h5 class="txt-orange">About Me</h5>
+                <p>We are mainly a little team of 7 members Great food Menu is awesome, their foods are not only great but also in the right price. I'll highly recommend them</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span class="glyphicon glyphicon-chavron-right"></span>
+    </div>
+
+
+    <div class="footer">
+      <div class="footer-bg">
+        <h3 class="text-white">Get our daily food items delivered to your email</h3>
+        <br><br>
+        <form class="form-inline">
+          <div class="form-group">
+            <input type="text" class="form-control">
+            <button class="btn btn-primary">subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+    <div class="footer-finish">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <div class="socials">
+            <h2 class="txt-white"><img src="imgs/footerlogos/logo_white.png" alt="">  MENU</h2>
+            <p class="txt-white">That's What We Are</p>
+            <img src="imgs/footerlogos/facebook.png" alt=""><img src="imgs/footerlogos/twitter.png" alt=""><img src="imgs/footerlogos/pinterest.png" alt="">
+            <br><br>
+            <p class="txt-white">2016 menu restaurant</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
 
 </body>

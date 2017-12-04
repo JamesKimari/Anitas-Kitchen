@@ -1,7 +1,8 @@
-#bodycontent {
-  overflow-x: hidden;
-  margin:0;
-  padding: 0;
+* {
+  font-family: 'Halant', serif;
+}
+p {
+  font-size: 18px;
 }
 #show-menu {
   background-image: url("../imgs/backgrounds/landing.jpg");
@@ -9,8 +10,49 @@
   background-size: cover;
   text-align: center;
   align-items: center;
+  background-attachment: fixed;
 }
 
+#breakfast {
+  background: url("../imgs/foodtop/breakfast.jpg");
+  text-align: center;
+  color: white;
+  background-repeat: no-repeat;
+  }
+.food {
+  padding-top: 85px;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#lunch {
+  background: url("../imgs/foodtop/lunch.jpg");
+  text-align: center;
+  color: white;
+  background-repeat: no-repeat;
+}
+
+#dinner {
+  background: url("../imgs/foodtop/dinner.jpg");
+  text-align: center;
+  color: white;
+  background-repeat: no-repeat;
+}
+
+#breakfast h4, #lunch h4, #dinner h4 {
+  text-align: center;
+}
+#happy-hour {
+  background-color: #F15A29;
+  padding:35px;
+  box-sizing: border-box;
+}
+#party-time {
+  background-color: #ebedef;
+  padding:35px;
+  box-sizing: border-box;
+}
 .col-md-3 {
   padding-left: 0;
   padding-right: 0;
@@ -27,7 +69,7 @@
 }
 
 .Fastfood-text p {
-  font-size: 14px;
+  font-size: 18px;
   font-style: normal;
 }
 
@@ -56,7 +98,7 @@
 }
 
 .Drinks-text p {
-  font-size: 14px;
+  font-size: 18px;
   font-style: normal;
 }
 
@@ -161,12 +203,15 @@ button {
   padding: 20px;
   text-align: center;
 }
+
 .txt-white {
   color: white;
 }
+
 .socials {
   align-items: center;
 }
+
 .centre-align {
   align-items: center;
 }
