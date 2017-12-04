@@ -22,7 +22,7 @@ p {
   background-repeat: no-repeat;
 }
 
-#breakfast:hover {
+#breakfast:hover{
   background: rgba(255, 255, 255, 0.2);
   color: black;
   overflow: hidden;
@@ -146,6 +146,10 @@ p {
 button {
   font-size: 20px;
 }
+.btn-primary {
+background-color: #F15A29;
+border-color: #F15A29;
+}
 
 .options-bg {
   background: url(../imgs/backgrounds/foodsBg.jpg);
@@ -219,11 +223,6 @@ button {
 
 .form-group {
   margin-left: 40%;
-}
-
-.btn-primary {
-  background-color: #F15A29;
-  border-color: #F15A29;
 }
 
 .footer-finish {
