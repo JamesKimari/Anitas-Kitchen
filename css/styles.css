@@ -117,9 +117,11 @@ button {
 .section p#Fastfood {
   background-color: white;
 }
+
 .customers {
   background-color: white;
 }
+
 .customers .jumbotron {
   background-color: white;
   box-shadow: 2px 4px 12px 2px #DCDCDC;
@@ -128,22 +130,39 @@ button {
   margin-right: 100px;
   margin-top: 0px;
 }
+
 .txt-orange {
   color: #F15A29;
 }
+
 .txt-center {
   text-align: center;
 }
+
 .footer-bg {
-background-image: url(../imgs/backgrounds/subscribe.jpg);
-padding: 100px;
-background-attachment: fixed;
-text-align: center;
+  background-image: url(../imgs/backgrounds/subscribe.jpg);
+  padding: 100px;
+  background-attachment: fixed;
+  text-align: center;
 }
+
 .form-group {
   margin-left: 40%;
 }
+
 .btn-primary {
   background-color: #F15A29;
   border-color: #F15A29;
+}
+
+.footer-finish {
+  background-color: #F15A29;
+  padding: 20px;
+  text-align: center;
+}
+.txt-white {
+  color: white;
+}
+.socials {
+  align-items: center;
 }
