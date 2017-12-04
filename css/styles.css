@@ -84,9 +84,17 @@ button {
 }
 .options-bg .jumbotron {
   border-radius: 0px;
-}
-.options-bg p {
+  background-color: white;
+  padding-top: 0px;
+  }
+.options-bg {
   text-align: center;
   color: #F15A29;
-  
-}
+  }
+  .options-bg .col-md-3 p {
+    color: black;
+  }
+.section {
+  background-color: #ebedef;
+  padding-top: 20px;
+  }
