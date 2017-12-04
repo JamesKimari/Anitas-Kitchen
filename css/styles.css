@@ -20,7 +20,7 @@
   margin-right: 0;
 }
 
-.col-md-6 .Fastfood-text {
+.Fastfood-text {
   margin-left: 60px;
   margin-right: 140px;
 }
@@ -44,6 +44,10 @@
   box-shadow: 2px 4px 12px 2px #DCDCDC;
   border-radius: 0px;
   padding: 20px;
+}
+
+.Drinks-pics {
+  margin-right: 0px;
 }
 
 .Drinks-text {
@@ -76,25 +80,57 @@ button {
 .options-bg {
   background: url("../imgs/backgrounds/foodsBg.jpg")
 }
+
 .options-bg .container-fluid {
   padding-top: 100px;
   padding-bottom: 100px;
   margin-left: 100px;
   margin-right: 100px;
 }
+
 .options-bg .jumbotron {
   border-radius: 0px;
   background-color: white;
   padding-top: 0px;
-  }
+}
+
 .options-bg {
   text-align: center;
   color: #F15A29;
-  }
-  .options-bg .col-md-3 p {
-    color: black;
-  }
+}
+
+.options-bg .col-md-3 p {
+  color: black;
+}
+
 .section {
   background-color: #ebedef;
+}
+
+.section p {
   padding-top: 20px;
-  }
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.section p#Fastfood {
+  background-color: white;
+}
+.customers {
+  background-color: white;
+}
+.customers .jumbotron {
+  background-color: white;
+  box-shadow: 2px 4px 12px 2px #DCDCDC;
+  border-radius: 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 0px;
+}
+.txt-orange {
+  color: #F15A29;
+}
+.txt-center {
+  text-align: center;
+}
