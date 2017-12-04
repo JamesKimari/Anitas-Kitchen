@@ -1,13 +1,14 @@
-.overlaymenu {
-  background: url(../imgs/backgrounds/landing.jpg);
+#bodycontent {
+  overflow-x: hidden;
+  margin:0;
+  padding: 0;
 }
-
 #show-menu {
-  margin-top: 100px;
-  margin-bottom: 160px;
-  color: white;
+  background-image: url("../imgs/backgrounds/landing.jpg");
+  padding: 130px;
   background-size: cover;
   text-align: center;
+  align-items: center;
 }
 
 .col-md-3 {
@@ -164,5 +165,8 @@ button {
   color: white;
 }
 .socials {
+  align-items: center;
+}
+.centre-align {
   align-items: center;
 }
