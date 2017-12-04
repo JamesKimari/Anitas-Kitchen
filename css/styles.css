@@ -1,5 +1,5 @@
 .overlaymenu {
-  background: url("../imgs/backgrounds/landing.jpg")
+  background: url(../imgs/backgrounds/landing.jpg);
 }
 
 #show-menu {
@@ -133,4 +133,17 @@ button {
 }
 .txt-center {
   text-align: center;
+}
+.footer-bg {
+background-image: url(../imgs/backgrounds/subscribe.jpg);
+padding: 100px;
+background-attachment: fixed;
+text-align: center;
+}
+.form-group {
+  margin-left: 40%;
+}
+.btn-primary {
+  background-color: #F15A29;
+  border-color: #F15A29;
 }

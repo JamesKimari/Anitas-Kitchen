@@ -2529,7 +2529,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 }
 
 .form-inline .form-check {
-  width: 100%;
+  width: 100%;.form-inline
 }
 
 @media (min-width: 576px) {
