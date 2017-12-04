@@ -85,3 +85,8 @@ button {
 .options-bg .jumbotron {
   border-radius: 0px;
 }
+.options-bg p {
+  text-align: center;
+  color: #F15A29;
+  
+}
