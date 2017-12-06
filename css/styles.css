@@ -1,5 +1,5 @@
 * {
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Noto Serif', serif;
 }
 
 #show-menu {
@@ -190,9 +190,22 @@ button {
   color: #F15A29;
 }
 
+.options-bg .fa-chevron-left {
+  position: absolute;
+  top: 50%;
+  margin-left: -25em;
+    }
+
+.options-bg .fa-chevron-right {
+  position: absolute;
+  top: 35%;
+  width: 15%;
+}
+
 .nav {
   background-color: #D3D3D3;
 }
+
 .nav-tabs .nav-link {
   border: solid rgba(0, 0, 0, 0.2);
   border-width: thin;
@@ -281,9 +294,15 @@ button {
   border: 0;
 }
 
+.form-control::placeholder {
+  text-align: left;
+  color: white;
+  opacity: 0.8;
+}
+
 .footer-finish {
   background-color: #F15A29;
-  padding: 5%;
+  padding: 5% 5% 1%;
   text-align: center;
 }
 
