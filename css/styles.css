@@ -1,5 +1,5 @@
-* {
-  font-family: 'Noto Serif', serif;
+body {
+  font-family: 'Scope One', serif;
 }
 
 #show-menu {
@@ -104,11 +104,12 @@
 .Fastfood-text {
   margin-left: 10%;
   margin-right: 20%;
-  color: rgba(69, 69, 69, 0.9);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .Fastfood-text p {
   font-size: 16px;
+  color: rgba(0, 0, 0, 0.9);
   font-style: normal;
 }
 
@@ -129,21 +130,16 @@
   margin-right: 0%;
 }
 
-.Drinks-pics .left {
-  float: right;
-  margin: 0%;
-  padding: 0%;
-}
-
 .Drinks-text {
   text-align: right;
-  color: rgba(69, 69, 69, 0.9);
+  color: rgba(0, 0, 0, 0.7);
   padding-left: 4%;
   margin-right: 6%;
 }
 
 .Drinks-text p {
   font-size: 16px;
+  color: rgba(0, 0, 0, 0.9);
   font-style: normal;
 }
 
@@ -171,8 +167,8 @@ button {
 }
 
 .options-bg .container-fluid {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .options-bg .jumbotron {
@@ -183,18 +179,24 @@ button {
   text-align: center;
 }
 
+.options-bg li {
+  font-size: 20px;
+}
+
 .options-bg .foods p {
   color: black;
   margin-top: 5%;
   margin-bottom: 0%;
   color: #F15A29;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .options-bg .fa-chevron-left {
   position: absolute;
   top: 50%;
   margin-left: -25em;
-    }
+}
 
 .options-bg .fa-chevron-right {
   position: absolute;
@@ -208,7 +210,7 @@ button {
 
 .nav-tabs .nav-link {
   border: solid rgba(0, 0, 0, 0.2);
-  border-width: thin;
+  border-width: 0.01em;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
   color: rgba(0, 0, 0, 0.7);
