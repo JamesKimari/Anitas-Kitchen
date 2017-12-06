@@ -176,9 +176,7 @@ button {
   border-radius: 0px;
   background-color: white;
   padding-top: 0px;
-  margin: 100px;
-  padding-left: 6%;
-  padding-right: 6%;
+  margin: 6%;
   padding-bottom: 0%;
   text-align: center;
 }
@@ -208,8 +206,6 @@ button {
 .Foods {
   margin-top: 3%;
   padding-bottom: 3%;
-  margin-left: 5%
-  margin-right: 5%;
 }
 
 .customers {
