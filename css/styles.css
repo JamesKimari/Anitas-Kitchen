@@ -7,7 +7,10 @@
   padding: 150px;
   background-size: cover;
   background-attachment: fixed;
-  align-items: center;
+}
+
+.show-menu-items {
+  margin: 0% 20% 0% 20%;
   text-align: center;
 }
 
@@ -80,32 +83,32 @@
 }
 
 #happy-hour {
-  background-color: #F15A29;
-  padding: 8.5%;
-  box-sizing: border-box;
-  text-align: center;
-}
-
-#party-time {
   background-color: #ebedef;
   padding: 8.5%;
   box-sizing: border-box;
   text-align: center;
 }
 
+#party-time {
+  background-color: #F15A29;
+  padding: 8.5%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
 .col-md-3 {
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 0%;
+  padding-right: 0%;
 }
 
 .Fastfood-text {
-  margin-left: 60px;
-  margin-right: 140px;
-  color: #454545;
+  margin-left: 10%;
+  margin-right: 20%;
+  color: rgba(69, 69, 69, 0.9);
 }
 
 .Fastfood-text p {
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
 }
 
@@ -113,35 +116,35 @@
   color: white;
   background-color: white;
   box-shadow: 2px 2px 20px #DCDCDC;
-  border-radius: 0px;
-  padding: 20px;
+  border-radius: 0%;
+  padding: 3%;
 }
 
 .Drinks-pics {
   color: white;
   background-color: white;
   box-shadow: 2px 2px 20px #DCDCDC;
-  border-radius: 0px;
-  padding: 20px;
+  border-radius: 0%;
+  padding: 1%;
+  margin-right: 0%;
 }
 
-.Drinks-pics {
-  margin-right: 0px;
+.Drinks-pics .left {
+  float: right;
+  margin: 0%;
+  padding: 0%;
 }
 
 .Drinks-text {
   text-align: right;
-  color: #454545;
+  color: rgba(69, 69, 69, 0.9);
+  padding-left: 4%;
+  margin-right: 6%;
 }
 
 .Drinks-text p {
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
-}
-
-.col-md-5 .Drinks-text {
-  margin-right: 60px;
-  margin-left: 140px;
 }
 
 .border {
@@ -168,48 +171,60 @@ button {
 }
 
 .options-bg .container-fluid {
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .options-bg .jumbotron {
   border-radius: 0%;
   background-color: white;
-  padding-top: 0%;
-  margin: 6%;
-  padding-bottom: 0%;
+  margin: 12%;
+  padding: 0%;
   text-align: center;
 }
+
 .options-bg .foods p {
   color: black;
   margin-top: 5%;
   margin-bottom: 0%;
-  color: #F15A29
+  color: #F15A29;
 }
 
-.section {
-  background-color: #ebedef;
-  margin: 0;
+.nav {
+  background-color: #D3D3D3;
+}
+.nav-tabs .nav-link {
+  border: solid rgba(0, 0, 0, 0.2);
+  border-width: thin;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+  padding-top: 7%;
+  padding-bottom: 7%;
 }
 
-.section p {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-bottom: 0px;
-  text-align: center;
+.btn-outline-info {
+  color: #F15A29;
+  border-color: #F15A29;
 }
 
-.section p#Fastfood {
-  background-color: white;
+.btn-outline-info:hover {
+  color: white;
+  background-color: #F15A29;
+  border-color: #F15A29;
 }
 
 .foods {
-  margin-top: 3%;
+  margin-top: 5%;
   padding-bottom: 3%;
+  padding-left: 7%;
+  padding-right: 7%;
 }
 
 .customers {
   background-color: white;
+  padding: 2.5%
 }
 
 .customers .jumbotron {
@@ -218,6 +233,15 @@ button {
   border-radius: 0px;
   margin: 5% 7%;
   padding: 3% 3% 3%;
+}
+
+.customers .col-md-5 {
+  border-style: solid;
+  border-width: thin;
+  border-color: rgba(153, 153, 153, 0.4);
+  border-top: 0px;
+  border-bottom: 0px;
+  border-right: 0px;
 }
 
 .txt-orange {
@@ -230,23 +254,31 @@ button {
 
 .about-menu-text {
   text-align: justify;
-  font-size: 18px;
+  font-size: 16px;
+  padding-left: 5%;
 }
 
 .happy-customers-text {
   text-align: center;
-  font-size: 18px;
-  padding: 0% 8%;
+  font-size: 16px;
+  padding: 0% 6.5%;
 }
 
-.footer-bg {
+.footer {
   background-image: url(../imgs/backgrounds/subscribe.jpg);
-  padding: 7.5%;
   text-align: center;
+  padding: 7.7%;
 }
 
-.form-group {
-  margin-left: 40%;
+.footer form {
+  align-items: center;
+  margin: 0% 30%;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-right: 40px;
+  border: 0;
 }
 
 .footer-finish {

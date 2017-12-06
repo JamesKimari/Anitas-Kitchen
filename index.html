@@ -11,7 +11,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
-  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="js/jquery-3.2.1.js"></script>
   <script src="js/scripts.js"></script>
   <title>Anita's Kitchen</title>
@@ -22,19 +22,20 @@
 
   <div id="container-fluid">
     <div id="show-menu">
-      <img src="imgs/logoBig.png" alt="" class="img-fluid">
-      <br><br>
-      <h1 style="color:white;">We Provide The Best Food<br>At The <b>Right Price</b></h1>
+      <div class="show-menu-items">
+        <img src="imgs/logoBig.png" alt="" class="img-fluid">
+        <br><br>
+        <h1 style="color:white;">We Provide The Best Food<br>At The <b>Right Price</b></h1>
+      </div>
     </div>
-
 
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-3">
-          <div class="col-md-12" id="party-time">
+          <div class="col-md-12" id="happy-hour">
             <h3>Happy Hour</h3>
           </div>
-          <div class="col-md-12" id="happy-hour">
+          <div class="col-md-12" id="party-time">
             <h3 style="color: white;">Party Time</h3>
           </div>
         </div>
@@ -71,9 +72,7 @@
             <br>
             <p>Lorem ipsum dolor sit amet, natum utamur definitiones ut his, eu quo affert epicurei. Te integre voluptaria definitionem cum. Ut habeo utinam pertinax pri. Nibh iusto iuvaret te pro, ad brute argumentum disputando vix, sea lucilius moderatius
               cu. An ius soluta aperiam ceteros, tantas epicurei cum no. Eu quo affert epicurei.</p>
-            <div class="border">
-              <button type="button" class="btn btn-outline-primary"><b>VIEW GALLERY</b></button>
-            </div>
+            <a href="#" class="btn btn-outline-info btn-lg"><span style="font-size: 16px">VIEW GALLERY &nbsp; &#10142;</span><span class="glyphicon glyphicon-arrow-right"></span></a>
           </div>
         </div>
       </div>
@@ -83,23 +82,16 @@
     <br><br><br>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-5">
-          <div class="Drinks-text">
-            <br>
-            <h2><b>Drinks</b></h2>
-            <h5><b>We also produce delicious drinks</b></h5>
-            <br>
-            <p>Lorem ipsum dolor sit amet, natum utamur definitiones ut his, eu quo affert epicurei. Te integre voluptaria definitionem cum. Ut habeo utinam pertinax pri. Nibh iusto iuvaret te pro, ad brute argumentum disputando vix, sea lucilius moderatius.</p>
-            <div class="border">
-              <button type="button" class="btn btn-outline-primary"><b>VIEW GALLERY </b></button>
-            </div>
-          </div>
+        <div class="col-md-4 offset-md-1 Drinks-text">
+          <br>
+          <h2><b>Drinks</b></h2>
+          <h5><b>We also produce delicious drinks</b></h5>
+          <br>
+          <p>Lorem ipsum dolor sit amet, natum utamur definitiones ut his, eu quo affert epicurei. Te integre voluptaria definitionem cum. Ut habeo utinam pertinax pri. Nibh iusto iuvaret te pro, ad brute argumentum disputando vix, sea lucilius moderatius.</p>
+          <a href="#" class="btn btn-outline-info btn-lg"><span style="font-size: 16px">VIEW GALLERY &nbsp; &#10142;</span><span class="glyphicon glyphicon-arrow-right"></span></a>
         </div>
-        <div class="col-md-6">
-          <div class="Drinks-pics">
-            <img src="imgs/drink1.jpg" alt="" class="img-fluid">
-            <img src="imgs/drink2.jpg" alt="" class="img-fluid">
-          </div>
+        <div class="col-md-6 Drinks-pics">
+          <img src="imgs/drink1.jpg" alt="" class="img-fluid"><img src="imgs/drink2.jpg" alt="" class="img-fluid">
         </div>
       </div>
     </div>
@@ -109,20 +101,20 @@
     <div class="options-bg">
       <div class="container-fluid">
         <div class="jumbotron">
-          <div class="row section">
-            <div class="col-md-3">
-              <p id="Fastfood">Fast Food</p>
-            </div>
-            <div class="col-md-3 chicken">
-              <p>Drinks</p>
-            </div>
-            <div class="col-md-3 chicken">
-              <p>Chicken</p>
-            </div>
-            <div class="col-md-3 rice">
-              <p id="Rice">Rice</p>
-            </div>
-          </div>
+          <ul class="nav nav-tabs nav-justified">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Fast Food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Drinks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Chicken</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Rice</a>
+            </li>
+          </ul>
           <div class="row foods">
             <div class="col-md-4">
               <img src="imgs/fastfood/beefBurger.jpg" alt="" class="img-fluid">
@@ -155,7 +147,7 @@
                 <p><b>George Richard</b></p>
                 <p>Great food! Menu is awesome. The foods are not only great but also in the right price. I'll highly recommend them:)</p>
                 <div class="customer-profiles">
-                  <img src="imgs/customers/p1.png"> <img src="imgs/customers/p2.png"> <img src="imgs/customers/p3.png">
+                  <i class="fa fa-chevron-left" aria-hidden="true" style="color:#F15A29;"></i>&emsp;<img src="imgs/customers/p1.png">&emsp;&nbsp;<img src="imgs/customers/p2.png">&emsp;&nbsp;<img src="imgs/customers/p3.png">&emsp;<i class="fa fa-chevron-right" aria-hidden="true" style="color:#F15A29;"></i>
                 </div>
               </div>
               <div class="col-md-5 about-menu-text">
@@ -171,16 +163,14 @@
 
 
     <div class="footer">
-      <div class="footer-bg">
-        <h3 class="text-white">Get our daily food items delivered to your email</h3>
-        <br><br>
-        <form class="form-inline">
-          <div class="form-group">
-            <input type="text" class="form-control">
-            <button class="btn btn-primary">subscribe</button>
-          </div>
-        </form>
-      </div>
+      <h3 class="text-white">Get our daily food items delivered to your email</h3>
+      <br><br>
+      <form class="form-inline">
+        <div class="form-group">
+          <input type="text" class="form-control">
+          <button class="btn btn-primary">subscribe</button>
+        </div>
+      </form>
     </div>
 
 
