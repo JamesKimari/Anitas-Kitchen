@@ -1,5 +1,8 @@
-body {
+{
   font-family: 'Scope One', serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #show-menu {
@@ -10,13 +13,13 @@ body {
 }
 
 .show-menu-items {
-  padding-top: 8%;
+  padding-top: 9%;
   text-align: center;
 }
 
 .overlay-screen {
   position: absolute;
-  left: -100%;
+  top: -100%;
   width: 100%;
   height: 100%;
   background: #F15A29;
@@ -24,7 +27,7 @@ body {
 }
 
 .overlay-screen.active {
-  left:0;
+  top: 0;
   overflow: auto;
 }
 
@@ -50,7 +53,8 @@ a .fa-bars:hover {
 .overlay-menu li, .overlay-menu a {
   font-size: 2em;
   list-style: none;
-  color: white;
+  color: black;
+  font-family: 'Scope One', serif;
   text-align: center;
 }
 
@@ -63,11 +67,12 @@ a .fa-bars:hover {
 
 .overlay-menu ul li a:hover {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
-.overlay-menu:active {
-  left: 0;
+.overlay-menu ul li a:focus {
+  text-decoration: none;
+  color: white;
 }
 
 #breakfast {
@@ -79,7 +84,7 @@ a .fa-bars:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 #breakfast:hover h4 {
@@ -101,7 +106,7 @@ a .fa-bars:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 #lunch:hover h4 {
@@ -123,7 +128,7 @@ a .fa-bars:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 #dinner:hover h4 {
@@ -163,10 +168,15 @@ a .fa-bars:hover {
   color: rgba(0, 0, 0, 0.7);
 }
 
-.Fastfood-text p {
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.9);
+.Fastfood-text h2, .Fastfood-text h5, .Drinks-text h2, .Drinks-text h5 {
+  font-family: 'Roboto Slab', serif;
+}
+
+.Fastfood-text p, .Drinks-text p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
   font-style: normal;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .Fastfood-pics {
@@ -182,9 +192,8 @@ a .fa-bars:hover {
   background-color: white;
   box-shadow: 1px 2px 3px 3px #DCDCDC;
   border-radius: 0%;
-  padding: 1%;
-  padding-right: -3em;
-}
+  padding: 1.4% 1.4% 1.4% 1.4%;
+  }
 
 .Drinks-text {
   text-align: right;
@@ -193,23 +202,17 @@ a .fa-bars:hover {
   margin-right: 6%;
 }
 
-.Drinks-text p {
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.9);
-  font-style: normal;
-}
-
 .border {
   margin-top: 20px;
+}
+
+button {
+  font-size: 20px;
 }
 
 .btn-outline-primary {
   border-color: #F15A29;
   color: #F15A29;
-}
-
-button {
-  font-size: 20px;
 }
 
 .btn-primary {
@@ -236,8 +239,9 @@ button {
 }
 
 .options-bg li {
-  font-size: 20px;
-}
+  font-size: 18px;
+  font-family: 'Scope One', serif;
+  }
 
 .options-bg .foods p {
   color: black;
@@ -245,7 +249,8 @@ button {
   margin-bottom: 0%;
   color: #F15A29;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .options-bg .fa-chevron-left {
@@ -333,6 +338,11 @@ button {
   text-align: center;
   font-size: 16px;
   padding: 0% 6.5%;
+}
+
+.about-menu-text p, .happy-customers-text p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .footer {
